@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.music-player {
+    background: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px 40px;
+    text-align: center;
+    width: 300px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+.track-info {
+    margin-bottom: 30px;
+}
+
+#track-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#track-time {
+    font-size: 14px;
+    color: #888;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.controls button {
+    background: #61dafb;
+    border: none;
+    border-radius: 50%;
+    color: #282c34;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    width: 50px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.controls button:hover {
+    background: #21a1f1;
+    transform: scale(1.1);
+}
+
+.controls button:focus {
+    outline: none;
+}
