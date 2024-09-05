@@ -4,14 +4,7 @@
 
 HTML, CSS, JavaScript (Frontend), Node.js/Express (Backend), MongoDB/MySQL (Database), APIs (Spotify, YouTube, or custom music library), Responsive Web Design (for mobile compatibility)
 
-## Features:
-User authentication and playlists
-Search and stream music
-Volume control, play, pause, next, and previous functions
-Playlist creation and management
-Audio equalizer and visualizer
-Lyrics display and album art support
-Integration with music APIs or custom music uploads
+## Description:
 
 The Web-Based Music Player is a modern, responsive, and user-friendly web application that allows users to stream and manage their music library directly through their web browser. The platform offers essential music player functionalities such as play, pause, next/previous track controls, volume adjustments, and playlist management. It leverages a clean and intuitive user interface to provide a seamless music streaming experience across all devices.
 
